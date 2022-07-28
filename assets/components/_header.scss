@@ -1,9 +1,36 @@
 .header{
  &__content{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  @include align-center ();
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 155px;
+   
  }
+ &__nav{
+   display: flex;
+ }
+ &__item{
+  margin-right: 25px;
+ }
+ &__logo{
+  @include font (700,28px,42px,#22262A);
+  margin-right: 70px;
+ }
+ &__link{
+  @include font (400,18px,27px,#22262A);
+ }
+ &__img{
+  margin-top: 10px;
+  margin-left: 77px;
+
+ }
+
+
+
+
+ 
+
 
 
 

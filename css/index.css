@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+body {
+  font-family: "Poppins";
+}
+
 a {
   text-decoration: none;
 }
@@ -25,4 +29,30 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 155px;
+}
+.header__nav {
+  display: flex;
+}
+.header__item {
+  margin-right: 25px;
+}
+.header__logo {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #22262A;
+  margin-right: 70px;
+}
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262A;
+}
+.header__img {
+  margin-top: 10px;
+  margin-left: 77px;
 }/*# sourceMappingURL=index.css.map */
