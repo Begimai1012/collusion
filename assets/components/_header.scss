@@ -54,6 +54,22 @@
     justify-content: space-between;
     text-align: center;
     background: white;
-    
+    display: none; 
   }
+  &__close{
+    display: none;
+  }
+ &.active &__close{
+    font-size: 25px;
+    font-weight: 900;
+    display: block;
+  }
+
+  &.active &__line{
+    display: none;
+  }
+  &.active &__list{
+    display: flex;
+  }
+
 }

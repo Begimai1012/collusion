@@ -89,6 +89,21 @@ ul {
   justify-content: space-between;
   text-align: center;
   background: white;
+  display: none;
+}
+.burger__close {
+  display: none;
+}
+.burger.active .burger__close {
+  font-size: 25px;
+  font-weight: 900;
+  display: block;
+}
+.burger.active .burger__line {
+  display: none;
+}
+.burger.active .burger__list {
+  display: flex;
 }
 
 .hero {
