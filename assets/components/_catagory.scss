@@ -1,0 +1,51 @@
+.catagory {
+    margin-top: 123px;
+
+    &__content {
+        display: flex;
+    }
+
+    &__women {
+        display: flex;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__photos {
+        max-width: 551px;
+    }
+
+    &__women {
+        margin-top: 15px;
+    }
+
+    &__brunet {
+        margin-left: 25px;
+    }
+
+    &__box {
+        width: 552px;
+        height: 574px;
+        margin-left: 20px;
+        position: relative;
+    }
+    &____button{
+        position: absolute;
+
+        
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #22262A;
+
+    }
+
+}

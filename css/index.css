@@ -41,9 +41,9 @@ ul {
 }
 .header__content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .header__nav {
   display: flex;
@@ -161,7 +161,48 @@ ul {
   .header__nav {
     display: none;
   }
+  .header__img {
+    display: none;
+  }
   .burger {
     display: block;
   }
+}
+.catagory {
+  margin-top: 123px;
+}
+.catagory__content {
+  display: flex;
+}
+.catagory__women {
+  display: flex;
+}
+.catagory__content {
+  text-align: center;
+}
+.catagory__photos {
+  max-width: 551px;
+}
+.catagory__women {
+  margin-top: 15px;
+}
+.catagory__brunet {
+  margin-left: 25px;
+}
+.catagory__box {
+  width: 552px;
+  height: 574px;
+  margin-left: 20px;
+  position: relative;
+}
+.catagory____button {
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  color: #22262A;
 }/*# sourceMappingURL=index.css.map */
