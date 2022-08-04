@@ -173,12 +173,10 @@ ul {
 }
 .catagory__content {
   display: flex;
+  text-align: center;
 }
 .catagory__women {
   display: flex;
-}
-.catagory__content {
-  text-align: center;
 }
 .catagory__photos {
   max-width: 551px;
@@ -195,14 +193,117 @@ ul {
   margin-left: 20px;
   position: relative;
 }
-.catagory____button {
+.catagory__button {
   position: absolute;
   font-family: "Poppins";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-  text-align: center;
   color: #22262A;
+  text-align: center;
+  background: #FFFFFF;
+  left: 25px;
+  bottom: 28px;
+}
+
+.women {
+  margin-top: 113px;
+}
+.women__name {
+  text-align: center;
+}
+.women__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22262A;
+  text-align: center;
+}
+.women__description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  text-align: center;
+  margin-top: 15px;
+}
+.women__suptitle {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  margin-top: 38px;
+}
+.women__details {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  margin-top: 3px;
+}
+.women__icon {
+  margin-top: 3px;
+}
+.women__box {
+  margin-top: 72px;
+}
+.women__photo {
+  margin-left: 22px;
+}
+.women__boxes {
+  display: flex;
+}
+.women__info {
+  margin-left: 22px;
+}
+
+.men {
+  margin-top: 111px;
+}
+.men__name {
+  text-align: center;
+}
+.men__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22262A;
+  text-align: center;
+}
+.men__description {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  text-align: center;
+  margin-top: 15px;
+}
+.men__suptitle {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  margin-top: 38px;
+}
+.men__details {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  margin-top: 3px;
+}
+.men__icon {
+  margin-top: 3px;
+}
+.men__box {
+  margin-top: 65px;
+}
+.men__photo {
+  margin-left: 22px;
+}
+.men__boxes {
+  display: flex;
+}
+.men__info {
+  margin-left: 22px;
 }/*# sourceMappingURL=index.css.map */

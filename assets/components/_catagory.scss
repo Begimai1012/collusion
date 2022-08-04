@@ -3,19 +3,16 @@
 
     &__content {
         display: flex;
+        text-align: center;
+      
     }
 
     &__women {
         display: flex;
     }
 
-    &__content {
-        text-align: center;
-    }
-
     &__photos {
-        max-width: 551px;
-    }
+        max-width: 551px; }
 
     &__women {
         margin-top: 15px;
@@ -31,20 +28,16 @@
         margin-left: 20px;
         position: relative;
     }
-    &____button{
+
+    &__button {
         position: absolute;
-
-        
         font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
+        @include font(500, 18px, 27px, #22262A);
+        text-align: center;
+        background: #FFFFFF;
+        left: 25px;
+        bottom: 28px;
 
-text-align: center;
-
-color: #22262A;
 
     }
 
