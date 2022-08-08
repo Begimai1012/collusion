@@ -380,7 +380,8 @@ ul {
 
 .info {
   background-color: #F2F8FC;
-  max-width: 100%;
+  max-width: 1593px;
+  height: 606px;
 }
 .info__content {
   padding-top: 115px;
@@ -461,4 +462,18 @@ ul {
   display: flex;
   justify-content: space-between;
   min-width: 532px;
+}
+
+.footer {
+  background-color: #E7F5F8;
+  max-width: 1593px;
+  height: 93px;
+}
+.footer__details {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  text-align: center;
+  padding-top: 35px;
 }/*# sourceMappingURL=index.css.map */

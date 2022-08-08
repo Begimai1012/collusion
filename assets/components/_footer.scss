@@ -1,0 +1,11 @@
+.footer{
+ background-color:  #E7F5F8;
+max-width: 1593px;
+height: 93px;
+
+&__details{
+    @include font (400, 15px, 22px, $color);
+    text-align: center;
+ padding-top: 35px;
+}
+}
