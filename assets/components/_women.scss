@@ -1,44 +1,37 @@
-.women{
- margin-top: 113px;
+.women {
+    margin-top: 113px;
 
-&__name{
-    text-align: center;
-}
-&__title{
-@include font(700, 20px, 30px, $color);
-text-align: center;
-}
+    &__name {
+        text-align: center;
+    }
 
-&__description{
-@include font(400, 15px, 22px, $color);  
-text-align: center;
-margin-top: 15px;
-}
+    &__title {
+        @include font(700, 20px, 30px, $color);
+        text-align: center;
+    }
 
-&__suptitle{
-@include font(300, 15px, 22px,$color); 
-margin-top: 38px; 
-}
+    &__description {
+        @include font(400, 15px, 22px, $color);
+        text-align: center;
+        margin-top: 15px;
+    }
 
-&__details{
-@include font(600, 15px, 22px,$color);  
-margin-top: 3px;
-}
-&__icon{ 
-    margin-top: 3px;
-}
-&__box{
-margin-top: 72px;
-}
-&__content{
-}
-&__photo{
-    margin-left: 22px;
-}
-&__boxes{
-    display: flex;
-}
-&__info{
-    margin-left: 22px;
-}
+    &__suptitle {
+        @include font(300, 15px, 22px, $color);
+        margin-top: 38px;
+    }
+
+    &__details {
+        @include font(600, 15px, 22px, $color);
+        margin-top: 3px;
+    }
+
+    &__boxes{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box{
+       width: 24%; 
+    }
 }

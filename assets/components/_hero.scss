@@ -8,9 +8,11 @@
 
     &__content {
         display: flex;
-        justify-content: end;
+        height: 134vh;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
         align-items: center;
-        height: 100vh;
+        
     }
 
     &__info {
@@ -39,8 +41,6 @@
         margin-top: 27px;
         padding: 4px 24px;
     }
+    
 
-    &_img {
-        width: 100%;
-    }
 }

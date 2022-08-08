@@ -2,30 +2,18 @@
     margin-top: 123px;
 
     &__content {
+        max-width: 1133px;
         display: flex;
-        text-align: center;
-      
+        justify-content: space-between;
     }
-
-    &__women {
-        display: flex;
-    }
-
-    &__photos {
-        max-width: 551px; }
 
     &__women {
         margin-top: 15px;
-    }
-
-    &__brunet {
-        margin-left: 25px;
+        display: flex;
+        justify-content: space-between;
     }
 
     &__box {
-        width: 552px;
-        height: 574px;
-        margin-left: 20px;
         position: relative;
     }
 
@@ -37,8 +25,7 @@
         background: #FFFFFF;
         left: 25px;
         bottom: 28px;
-
-
     }
 
+  
 }

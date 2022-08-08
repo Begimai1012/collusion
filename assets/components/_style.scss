@@ -1,0 +1,59 @@
+.style {
+    margin-top: 110px;
+
+
+    &__title {
+        @include font(700, 20px, 30px, $color);
+        text-align: center;
+    }
+
+    &__description {
+        @include font(400, 15px, 22px, $color);
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    &__details {
+        @include font(400, 15px, 22px, $color);
+        text-decoration: underline;
+    }
+
+    &__photos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__mix {
+        display: flex;
+    }
+
+    &__left {
+        margin-top: 147px;
+    }
+
+    &__top {
+        margin-top: 60px;
+    }
+
+    &__right {
+        position: relative;
+    }
+
+    &__bottom {
+        position: absolute;
+        top: 455px;
+        right: -12px;
+        border: 18px solid white;
+    }
+
+    &__top {
+        padding-right: 38px;
+    }
+
+    &__details {
+        position: absolute;
+        bottom: 26px;
+        left: 131px;
+    }
+
+}

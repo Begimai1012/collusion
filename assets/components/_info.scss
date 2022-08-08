@@ -1,0 +1,60 @@
+.info {
+background-color: #F2F8FC;
+max-width: 100%;
+    &__content { 
+        padding-top: 115px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        @include font (700, 25px, 38px, $color); 
+    }
+    &__description {
+        @include font (400, 15px, 22px, $color);
+        max-width: 406px;
+        margin-top: 17px;
+        font-style: bold;
+    }
+    &__logo{
+        margin-top: 41px;
+        display: flex;
+    }
+    &__suptitle{
+        margin-left: 26px;
+        @include font (400, 15px, 22px, $color);
+    }
+    &__tex{
+        @include font (400, 15px, 22px, $color);
+        margin-top: 16px;
+    }
+    &__number{
+        @include font (400, 15px, 22px, $color);
+        margin-top: 7px;
+    }
+    &__icon{
+        margin-top: 46px;
+    }
+    &__name{
+        @include font (700, 25px, 38px, $color);
+    }
+    &__search{
+        margin-top: 24px;
+    }
+    &__box{
+        margin-top: 8px;
+    }
+    &__list{
+        @include font (600, 20px, 30px, $color);
+        margin-top: 70px;
+        margin-bottom: 27px;
+    }
+    &__item{
+        @include font (400, 15px, 22px, $color); 
+        margin-top: 21px;
+    }
+    &__boxes{
+        display: flex;
+        justify-content: space-between;
+       min-width: 532px;
+    }  
+}

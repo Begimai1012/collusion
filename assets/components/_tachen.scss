@@ -1,0 +1,29 @@
+.tachen {
+    background: url(../assets/img/tachen/tachen-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 153px;
+   
+    &__content{
+        display: flex;
+        height: 154vh;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__title{
+    @include font (500, 18px, 27px, $color);
+    }
+    &__description{
+        @include font (700, 80px, 120px, $color);
+    }
+    &__button {
+        @include font (500, 18px, 27px, #FFFFFF);
+        background: #22262A;
+        margin-right: 24px;
+        margin-top: 27px;
+        padding: 4px 24px;
+    }
+   
+}
