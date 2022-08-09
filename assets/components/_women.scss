@@ -30,8 +30,60 @@
         margin-top: 65px;
         display: flex;
         justify-content: space-between;
+      
     }
-    &__box{
-       width: 24%; 
+    &__box
+    {
+        width: 24%;
     }
+
+        
+}
+@media screen and (max-width: 1100px){
+    .women{
+        &__container{
+            width: 1100px;
+        }
+     &__boxes{   
+        display: flex;
+        flex-wrap: wrap;
+     }
+        &__box{
+      width: 30%;
+    }    
+}
+}
+@media screen and (max-width: 860px){
+    .women{
+        &__container{
+            width: 860px;
+        }
+     &__boxes{   
+        display: flex;
+        flex-wrap: wrap;
+
+     
+     }
+        &__box{
+      width: 50%;
+    }    
+}
+}
+@media screen and (max-width: 570px){
+    .women{
+        &__container{
+            width: 570px;
+        }
+     &__boxes{   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+
+     
+     }
+        &__box{
+      width: 60%;
+    }    
+}
 }

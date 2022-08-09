@@ -57,3 +57,17 @@
     }
 
 }
+@media screen and (max-width: 1133px){
+    .style{
+       &__photos{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         align-items: center;
+       }
+       &__right{
+           margin-top: 15px;
+       }
+       
+    }
+   }

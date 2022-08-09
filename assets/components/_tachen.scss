@@ -4,20 +4,23 @@
     background-size: cover;
     height: 100vh;
     margin-top: 153px;
-   
-    &__content{
-        display: flex;
-        height: 154vh;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        align-items: center;
+
+    &__content {
+        display: flex;  
     }
-    &__title{
-    @include font (500, 18px, 27px, $color);
+
+    &__info {
+        margin-top: 223px; 
     }
-    &__description{
+
+    &__title {
+        @include font (500, 18px, 27px, $color);
+    }
+
+    &__description {
         @include font (700, 80px, 120px, $color);
     }
+
     &__button {
         @include font (500, 18px, 27px, #FFFFFF);
         background: #22262A;
@@ -25,5 +28,18 @@
         margin-top: 27px;
         padding: 4px 24px;
     }
-   
+
 }
+
+@media screen and (max-width: 1130px){
+    .tachen{
+      margin-top: 250px;
+       
+    }
+   }
+   @media screen and (max-width: 700px){
+    .tachen{
+      margin-top: 250px;
+       
+    }
+   }
