@@ -36,6 +36,13 @@
     {
         width: 24%;
     }
+    &__prices{
+        display: flex;
+    }
+    &__newprice{
+        margin-left: 25px;
+        color:red;
+    }
 
         
 }

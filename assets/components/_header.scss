@@ -11,6 +11,7 @@
 
   &__nav {
     display: flex;
+    margin-top: 3px;
 
   }
 
@@ -20,6 +21,7 @@
 
   &__logo {
     @include font (700, 28px, 42px, #22262A);
+  
   }
 
   &__link {

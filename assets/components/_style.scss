@@ -15,7 +15,8 @@
 
     &__details {
         @include font(400, 15px, 22px, $color);
-        text-decoration: underline;
+        display: inline;
+        border-bottom: 1px solid #000;
     }
 
     &__photos {

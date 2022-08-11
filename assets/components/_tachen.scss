@@ -6,7 +6,12 @@
     margin-top: 153px;
 
     &__content {
-        display: flex;  
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 40px;
+        box-sizing: border-box; 
     }
 
     &__info {
@@ -43,3 +48,6 @@
        
     }
    }
+ 
+ 
+
